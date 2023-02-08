@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 
 @Getter
@@ -14,4 +15,7 @@ public class Funcionario {
 	private LocalDate dataAdmissao;
 	private BigDecimal salario;
 
+	public void reajustaSalario(BigDecimal reajuste) {
+		this.salario = this.salario.add(reajuste).setScale(2, RoundingMode.HALF_UP);
+	}
 }

@@ -1,7 +1,6 @@
 package br.com.alura.tdd.service;
 
 import br.com.alura.tdd.modelo.Funcionario;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
@@ -28,7 +27,7 @@ class BonusServiceTest {
     }
 
     @Test
-    void bonusDeveriSerDezPorcentoParaSalarioDeExatamenteDezMil() {
+    void bonusDeveriaSerDezPorcentoParaSalarioDeExatamenteDezMil() {
         BonusService bonusService = new BonusService();
         BigDecimal bonus = bonusService.calcularBonus(new Funcionario("Rodrigo", LocalDate.now(), new BigDecimal(10000)));
 

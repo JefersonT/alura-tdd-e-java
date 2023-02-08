@@ -10,7 +10,11 @@
 - Como escrever um teste automatizado com JUnit;
 - Como executar os testes com JUnit e analisar o resultado da execução.
 
-[//]: # (## AULA 03. )
+## AULA 03. TDD: Test-Driven Development
+- O que é o TDD;
+- Como escrever uma funcionalidade via TDD;
+- Como realizar uma refatoração no código;
+- As vantagens de escrever os testes antes da implementação.
 
 [//]: # (## AULA 04. )
 
