@@ -16,6 +16,8 @@
 - Como realizar uma refatoração no código;
 - As vantagens de escrever os testes antes da implementação.
 
-[//]: # (## AULA 04. )
+## AULA 04. Lidando com Exceptions
+- Como testar métodos que podem lançar exceptions;
+- As abordagens para testar um método que lança uma exception.
 
 [//]: # (## AULA 05. )
