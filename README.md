@@ -20,4 +20,8 @@
 - Como testar métodos que podem lançar exceptions;
 - As abordagens para testar um método que lança uma exception.
 
-[//]: # (## AULA 05. )
+## AULA 05. Mais recursos
+- Como organizar o código de uma classe de teste;
+- A utilizar as anotacoes `@BeforeEach`, `@AfterEach`, `@BeforeAll` e `@AfterAll` do JUnit;
+- Que não se deve testar métodos privados;
+- Avaliar quais classes devem ser testadas em uma aplicação.
